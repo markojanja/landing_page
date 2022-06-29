@@ -153,6 +153,46 @@ img{
 .quote-author{
     align-self: flex-end;
 }
+.cta-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 1rem;
+}
+.cta{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    color: #E5E7EB;
+    background-color: #3882f6;
+    padding: 4rem;
+    border-radius: 10px;
+}
+/* .cta-content{
+    flex: 1 1 auto;
+} */
+.cta-title{
+    font-size: 24px;
+    font-weight: bold;
+}
+.cta-btn{
+    display: inline-block;
+    border: 2px solid #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    text-align: center;
+}
+.footer{
+    color: #ffffff;
+    background: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
 
 
 
