@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&family=Turret+Road:wght@200;300;400&display=swap');
 
+
 *{
     margin: 0;
     padding: 0;
@@ -19,8 +20,9 @@ img{
     width: 100%;
     height: 100%;
     vertical-align: middle;
+    object-fit: cover;
 }
-
+/* buttons */
 .btn-primary{
     display: inline-block;
     background-color: #3882f6;
@@ -32,7 +34,18 @@ img{
     text-align: center;
 
 }
-
+.cta-btn{
+    display: inline-block;
+    border: 2px solid #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    text-align: center;
+}
+.orange-clr{
+    color: orange;
+}
+/* utility classes */
 .container{
     position: relative;
     display: flex;
@@ -45,11 +58,13 @@ img{
 .flex-col{
     flex-direction: column;
 }
+/* header */
 .header{
     background-color: #1F2937;
     color: #F9FAf8;
 
 }
+/* navbar  */
 .nav{
     position: relative;
     display: flex;
@@ -63,6 +78,7 @@ img{
     flex-grow: 1;
     font-size: 24px;
 }
+
 .nav-links{
     position: relative;
     display: flex;
@@ -71,7 +87,7 @@ img{
 .nav-links li{
     padding: 10px 20px;
 }
-
+/* herro section  */
 .herro{
     position: relative;
     display: flex;
@@ -96,6 +112,7 @@ img{
     width: 100%;
     height: 100%;
 }
+/* about section  */
 .about{
     display: flex;
     flex-direction: column;
@@ -129,13 +146,16 @@ img{
 .card-img{
     width: 100%;
     height: 100%;
-    border: 5px solid #3882f6;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
     border-radius: 10px;
     overflow: hidden;
+    width: 350px;
+    height: 350px;
 }
 .card-text{
     padding: 1rem;
 }
+/* quote section  */
 .quote-section{
 
     display: flex;
@@ -153,12 +173,14 @@ img{
 .quote-author{
     align-self: flex-end;
 }
+/* cta section */
 .cta-section{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 5rem 1rem;
 }
+
 .cta{
     display: flex;
     align-items: center;
@@ -169,21 +191,16 @@ img{
     padding: 4rem;
     border-radius: 10px;
 }
-/* .cta-content{
-    flex: 1 1 auto;
-} */
+
 .cta-title{
     font-size: 24px;
     font-weight: bold;
 }
-.cta-btn{
-    display: inline-block;
-    border: 2px solid #ffffff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-weight: 600;
-    text-align: center;
+.cta-text{
+    margin:15px 0;
 }
+
+/* footer  */
 .footer{
     color: #ffffff;
     background: #1F2937;
