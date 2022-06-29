@@ -17,17 +17,19 @@ a{
 }
 img{
     width: 100%;
-    object-fit: cover;
-    vertical-align: text-top;
-
+    height: 100%;
+    vertical-align: middle;
 }
 
 .btn-primary{
+    display: inline-block;
     background-color: #3882f6;
     color: #ffffff;
     padding: 10px 20px;
     font-size: 18px;
     border-radius: 10px;
+    margin-top: 30px;
+    text-align: center;
 
 }
 
@@ -39,6 +41,9 @@ img{
     padding: 0 1rem;
     align-items: center;
     justify-content: center;
+}
+.flex-col{
+    flex-direction: column;
 }
 .header{
     background-color: #1F2937;
@@ -71,8 +76,10 @@ img{
     position: relative;
     display: flex;
     width: 100%;
-    padding: 5rem 0;
-
+    padding: 5rem 0; 
+}
+.herro-content{
+    width: 100%;
 }
 .herro-title{
     font-size: 48px;
@@ -81,17 +88,74 @@ img{
     line-height: 1.5;
 }
 .herro-text{
+    width: 80%;
     font-size: 18px;
     color: #E5E7EB;
-    margin-bottom: 50px;
 }
 .herro-img{
-    position: relative;
     width: 100%;
     height: 100%;
-
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 1.5rem;
+}
+.about-title{
+    font-size: 36px;
+    color: #1F2937;
+    padding: 1rem;
+    margin-bottom: 1rem;
  
 }
+.card-container{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-around;    
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 auto;
+    margin: 5px;
+    text-align: center;
+
+}
+.card-img{
+    width: 100%;
+    height: 100%;
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card-text{
+    padding: 1rem;
+}
+.quote-section{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 5rem 1rem;
+}
+.quote{
+    font-style: italic;
+    font-weight: 300;
+    font-size: 36px;
+    color: #1F2937;
+}
+.quote-author{
+    align-self: flex-end;
+}
+
+
+
 
 
 
